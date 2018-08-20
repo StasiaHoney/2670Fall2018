@@ -2,21 +2,20 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class IfStatements : MonoBehaviour
+public class EndGame : MonoBehaviour
 {
-
-	public float Speed;
-	public bool LightsOn;
+	public FloatData Health;
 	
 	// Use this for initialization
 	void Start () {
-		if (!LightsOn){
-			//do work
-		}
+		
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		
+		if (Health.Value < 0)
+		{
+			//End Game
+		}
 	}
 }
