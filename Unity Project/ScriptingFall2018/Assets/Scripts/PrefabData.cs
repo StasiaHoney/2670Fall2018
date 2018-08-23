@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-[CreateAssetMenu]
+[CreateAssetMenu(fileName = "PowerUpConfig")]
 
 public class PrefabData : ScriptableObject {
     
@@ -12,6 +12,7 @@ public class PrefabData : ScriptableObject {
     public void OnConfigure()
     {
         var newPrefab = Instantiate(Prefab) ;
+        newPrefab.name = this.name;
         var newSprite = newPrefab.GetComponent<SpriteRenderer>();
         newSprite.sprite = SpriteImage;
         newSprite.color = SpriteColor;
