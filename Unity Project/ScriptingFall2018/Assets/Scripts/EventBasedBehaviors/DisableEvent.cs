@@ -1,14 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
- using UnityEngine.Events;
+using UnityEngine.Events;
 
-
-public class EventScript : MonoBehaviour
+public class DisableEvent : MonoBehaviour
 {
     public UnityEvent Event;
 
-    private void OnMouseDown()
+    private void OnDisable()
     {
         Event.Invoke();
     }
