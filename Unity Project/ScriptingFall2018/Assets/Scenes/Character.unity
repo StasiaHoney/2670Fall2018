@@ -290,12 +290,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b989da58a7ab484eaa6f9066da4f3f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 6
-  jumpSpeed: 8
-  gravity: 20
-  MoveX: {fileID: 11400000, guid: 48a1e4b01b7f77a499e405109dd9cf8c, type: 2}
-  MoveY: {fileID: 11400000, guid: 8f14f5d6d511d3a42abf0da18a25fafb, type: 2}
-  MoveZ: {fileID: 11400000, guid: 8fa27a3e3c53f4343a61d6068e392579, type: 2}
+  pattern: {fileID: 11400000, guid: edf4744c68bc4864cb3c3d761a8e76a6, type: 2}
 --- !u!143 &1898113490
 CharacterController:
   m_ObjectHideFlags: 0
@@ -462,7 +457,7 @@ Transform:
   m_GameObject: {fileID: 2134317476}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3.7407875, y: 3.7407873, z: 3.7407873}
+  m_LocalScale: {x: 1.5285059, y: 1.5285064, z: 1.5285064}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
