@@ -86,11 +86,11 @@
             <state relative-caret-position="330">
               <caret line="24" column="67" selection-start-line="24" selection-start-column="67" selection-end-line="24" selection-end-column="67" />
               <folding>
-                <marker date="1536176921309" expanded="false" signature="6:78" ph="..." />
-                <marker date="1536176921309" expanded="true" signature="175:962" ph="{...}" />
-                <marker date="1536176921309" expanded="true" signature="422:480" ph="{...}" />
-                <marker date="1536176921309" expanded="true" signature="497:960" ph="{...}" />
-                <marker date="1536176921309" expanded="true" signature="531:859" ph="{...}" />
+                <marker date="1536179417717" expanded="false" signature="6:78" ph="..." />
+                <marker date="1536179417717" expanded="true" signature="175:962" ph="{...}" />
+                <marker date="1536179417717" expanded="true" signature="422:480" ph="{...}" />
+                <marker date="1536179417717" expanded="true" signature="497:960" ph="{...}" />
+                <marker date="1536179417717" expanded="true" signature="531:859" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -100,10 +100,10 @@
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/FloatInput.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+              <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
               <folding>
-                <marker date="1536178914145" expanded="true" signature="99:229" ph="{...}" />
-                <marker date="1536178914145" expanded="true" signature="166:227" ph="{...}" />
+                <marker date="1536179417713" expanded="true" signature="99:230" ph="{...}" />
+                <marker date="1536179417713" expanded="true" signature="167:228" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -112,11 +112,11 @@
       <file leaf-file-name="FloatData.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/FloatData.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+            <state relative-caret-position="150">
+              <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
               <folding>
-                <marker date="1536178915299" expanded="true" signature="127:210" ph="{...}" />
-                <marker date="1536178915299" expanded="true" signature="180:208" ph="{...}" />
+                <marker date="1536179417713" expanded="true" signature="127:211" ph="{...}" />
+                <marker date="1536179417713" expanded="true" signature="180:209" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -249,12 +249,12 @@
       <workItem from="1535399665772" duration="2223000" />
       <workItem from="1535570248443" duration="3122000" />
       <workItem from="1535581483813" duration="20000" />
-      <workItem from="1536175053826" duration="3858000" />
+      <workItem from="1536175053826" duration="4400000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10034000" />
+    <option name="totallyTimeSpent" value="10576000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -267,7 +267,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="240" y="130" width="1440" height="780" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Errors In Solution" order="3" />
@@ -572,22 +571,22 @@
         <state relative-caret-position="330">
           <caret line="24" column="67" selection-start-line="24" selection-start-column="67" selection-end-line="24" selection-end-column="67" />
           <folding>
-            <marker date="1536176921309" expanded="false" signature="6:78" ph="..." />
-            <marker date="1536176921309" expanded="true" signature="175:962" ph="{...}" />
-            <marker date="1536176921309" expanded="true" signature="422:480" ph="{...}" />
-            <marker date="1536176921309" expanded="true" signature="497:960" ph="{...}" />
-            <marker date="1536176921309" expanded="true" signature="531:859" ph="{...}" />
+            <marker date="1536179417717" expanded="false" signature="6:78" ph="..." />
+            <marker date="1536179417717" expanded="true" signature="175:962" ph="{...}" />
+            <marker date="1536179417717" expanded="true" signature="422:480" ph="{...}" />
+            <marker date="1536179417717" expanded="true" signature="497:960" ph="{...}" />
+            <marker date="1536179417717" expanded="true" signature="531:859" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/FloatData.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        <state relative-caret-position="150">
+          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
           <folding>
-            <marker date="1536178915299" expanded="true" signature="127:210" ph="{...}" />
-            <marker date="1536178915299" expanded="true" signature="180:208" ph="{...}" />
+            <marker date="1536179417713" expanded="true" signature="127:211" ph="{...}" />
+            <marker date="1536179417713" expanded="true" signature="180:209" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -595,10 +594,10 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/FloatInput.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
           <folding>
-            <marker date="1536178914145" expanded="true" signature="99:229" ph="{...}" />
-            <marker date="1536178914145" expanded="true" signature="166:227" ph="{...}" />
+            <marker date="1536179417713" expanded="true" signature="99:230" ph="{...}" />
+            <marker date="1536179417713" expanded="true" signature="167:228" ph="{...}" />
           </folding>
         </state>
       </provider>
