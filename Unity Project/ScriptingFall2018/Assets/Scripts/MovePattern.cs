@@ -19,10 +19,6 @@ public class MovePattern : ScriptableObject {
             rotDirection.Set(Rotx.Value, Roty.Value, Rotyz.Value);
             transform.Rotate(rotDirection);
             moveDirection = transform.TransformDirection(moveDirection);
-			
-            if (Input.GetButton("Jump"))
-                moveDirection.y = jumpSpeed.Value;
-            
         }
         moveDirection.y -= gravity.Value * Time.deltaTime;
         controller.Move(moveDirection * Time.deltaTime);

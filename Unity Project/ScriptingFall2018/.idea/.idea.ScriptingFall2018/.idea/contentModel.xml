@@ -15,6 +15,7 @@
             <e p="UpdateEvent.cs" t="Include" />
           </e>
           <e p="EventScript.cs" t="Include" />
+          <e p="FloatBool.cs" t="Include" />
           <e p="FloatData.cs" t="Include" />
           <e p="FloatInput.cs" t="Include" />
           <e p="MovePattern.cs" t="Include" />
