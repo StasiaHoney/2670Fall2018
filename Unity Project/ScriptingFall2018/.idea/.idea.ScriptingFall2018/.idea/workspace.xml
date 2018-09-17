@@ -130,6 +130,7 @@
 <<<<<<< Updated upstream
       <workItem from="1536780075898" duration="3305000" />
       <workItem from="1536966001029" duration="462000" />
+      <workItem from="1536966001029" duration="462000" />
 =======
       <workItem from="1536780075898" duration="3903000" />
 >>>>>>> Stashed changes
@@ -137,6 +138,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="17926000" />
 <<<<<<< Updated upstream
     <option name="totallyTimeSpent" value="17926000" />
 =======
@@ -153,6 +155,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
 <<<<<<< Updated upstream
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
 =======
