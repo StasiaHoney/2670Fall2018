@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc99af55689714046a0b71d3a6f95a33, type: 3}
+  m_Name: SpeedCollection
+  m_EditorClassIdentifier: 
+  RandomSpeed: {fileID: 11400000, guid: 8f14f5d6d511d3a42abf0da18a25fafb, type: 2}
+  SpeedOptions:
+  - {fileID: 11400000, guid: 8c75958be274bd547a0c7176f888a0ec, type: 2}
+  - {fileID: 11400000, guid: 46786d2c658a88f40a0acd52698f8628, type: 2}
+  - {fileID: 11400000, guid: 8f14f5d6d511d3a42abf0da18a25fafb, type: 2}
+  - {fileID: 11400000, guid: ae9760b23cb2e114392b30f2403445ac, type: 2}
+  - {fileID: 11400000, guid: 6b17b7defc0cb3b4887af0b789ded9f3, type: 2}

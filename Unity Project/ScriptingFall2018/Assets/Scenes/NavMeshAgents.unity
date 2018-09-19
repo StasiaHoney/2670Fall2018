@@ -196,6 +196,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Destination: {fileID: 1343844007}
   PostPoint: {fileID: 4521281}
+  Speed: {fileID: 11400000, guid: 2a1f3b38fdaa5b4489591dd391f7cf4f, type: 2}
 --- !u!65 &574564130
 BoxCollider:
   m_ObjectHideFlags: 0
