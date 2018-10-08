@@ -5,6 +5,9 @@
     <e p="C:\Users\10820534\Documents\Ana Portfolio Repo\2670Fall2018\Unity Project\ScriptingFall2018" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="Prefabs" t="Include">
+          <e p="Prefab.cs" t="Include" />
+        </e>
         <e p="Scripts" t="Include">
           <e p="EventBasedBehaviors" t="Include">
             <e p="DestroyEvent.cs" t="Include" />
@@ -28,11 +31,14 @@
           <e p="InClassLectures" t="Include">
             <e p="AIAgent.cs" t="Include" />
             <e p="CharacterMovement.cs" t="Include" />
+            <e p="Counter.cs" t="Include" />
             <e p="EventScript.cs" t="Include" />
             <e p="ForEachLoops.cs" t="Include" />
+            <e p="PerpetualCounter.cs" t="Include" />
             <e p="PrefabData.cs" t="Include" />
             <e p="RunCountdown.cs" t="Include" />
           </e>
+          <e p="InstanceObject.cs" t="Include" />
           <e p="WordDemo" t="Include">
             <e p="ChangeColor.cs" t="Include" />
             <e p="ColorData.cs" t="Include" />

@@ -5,8 +5,10 @@ using UnityEngine.UI;
 
 public class RunCountdown : MonoBehaviour
 {
-
+	public float seconds = 1.0f;
+	public int number = 3;
 	private Text label;
+	
 	IEnumerator Start ()
 	{
 		label = GetComponent<Text>();
