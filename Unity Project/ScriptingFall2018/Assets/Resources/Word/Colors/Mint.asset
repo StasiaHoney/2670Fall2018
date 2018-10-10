@@ -8,6 +8,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee0bcd3fddacf624a983226241b7cda9, type: 3}
-  m_Name: B
+  m_Script: {fileID: 11500000, guid: f2aa15cafe012d64a96332815b359509, type: 3}
+  m_Name: Mint
   m_EditorClassIdentifier: 
+  Value: {r: 0.4669811, g: 1, b: 0.91213554, a: 1}

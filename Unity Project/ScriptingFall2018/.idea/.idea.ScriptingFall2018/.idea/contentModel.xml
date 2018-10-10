@@ -48,9 +48,11 @@
             <e p="MatchID.cs" t="Include" />
             <e p="NameID.cs" t="Include" />
             <e p="ObjectID.cs" t="Include" />
+            <e p="SnapOn.cs" t="Include" />
             <e p="Word.cs" t="Include" />
           </e>
         </e>
+        <e p="StartBehaviour.cs" t="Include" />
       </e>
       <e p="Library" t="ExcludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
