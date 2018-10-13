@@ -23,7 +23,7 @@ public class SnapOn : MonoBehaviour
         while (true)
         {
             yield return new WaitForFixedUpdate();
-            transform.position = Vector3.Lerp(transform.position, position, Speed);
+            transform.position = Vector3.Lerp(transform.position, position, 1.0f);
         }
     }
 }

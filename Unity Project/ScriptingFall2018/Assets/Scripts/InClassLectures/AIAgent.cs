@@ -8,7 +8,7 @@ public class AIAgent : MonoBehaviour
 	private NavMeshAgent agent;
 	public Transform Destination;
 	public Transform PostPoint;
-	private Transform finalDestiation;
+	private Transform finalDestination;
 	public FloatData Speed;
 	
 	
@@ -16,23 +16,23 @@ public class AIAgent : MonoBehaviour
 	{
 		
 		agent = GetComponent<NavMeshAgent>();
-		finalDestiation = transform;
+		finalDestination = transform;
 		agent.speed = Speed.Value;
 	}
 
 	private void OnTriggerEnter(Collider obj)
 	{
 		if(obj.transform == Destination)
-			finalDestiation = Destination;
+			finalDestination = Destination;
 	}
 
 	private void OnTriggerExit(Collider obj)
 	{
-		finalDestiation = PostPoint;
+		finalDestination = PostPoint;
 	}
 
 	private void Update()
 	{
-		agent.destination = finalDestiation.position;
+		agent.destination = finalDestination.position;
 	}
 }

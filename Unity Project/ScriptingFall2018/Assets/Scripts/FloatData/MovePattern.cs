@@ -7,7 +7,7 @@ public class MovePattern : ScriptableObject {
     public FloatData gravity;
     public FloatData MoveX, MoveY, MoveZ;
     public FloatData Rotx, Roty, Rotyz;
-	
+    
     protected Vector3 moveDirection;
     private Vector3 rotDirection;
 

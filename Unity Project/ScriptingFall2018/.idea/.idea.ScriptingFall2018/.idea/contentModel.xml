@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\10820534\.Rider2018.1\system\resharper-host\Local\Transient\ReSharperHost\v12\SolutionCaches\_ScriptingFall2018.-341598153.00" t="ExcludeRecursive" />
-    <e p="C:\Users\10820534\Documents\Ana Portfolio Repo\2670Fall2018\Unity Project\ScriptingFall2018" t="IncludeRecursive">
+    <e p="C:\Users\Admin\.Rider2018.1\system\resharper-host\Local\Transient\ReSharperHost\v12\SolutionCaches\_ScriptingFall2018.-2033461063.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Admin\Documents\College\DGM 2670\2670Fall2018\Unity Project\ScriptingFall2018" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Prefabs" t="Include">
@@ -27,6 +27,7 @@
             <e p="MovePattern.cs" t="Include" />
             <e p="MovePatternDual.cs" t="Include" />
             <e p="MovePatternNotGrounded.cs" t="Include" />
+            <e p="StringData.cs" t="Include" />
           </e>
           <e p="InClassLectures" t="Include">
             <e p="AIAgent.cs" t="Include" />
@@ -39,6 +40,12 @@
             <e p="RunCountdown.cs" t="Include" />
           </e>
           <e p="InstanceObject.cs" t="Include" />
+          <e p="TiltGame" t="Include">
+            <e p="ChangeScene.cs" t="Include" />
+            <e p="DeathVolume.cs" t="Include" />
+            <e p="RestartScene.cs" t="Include" />
+            <e p="WinVolume.cs" t="Include" />
+          </e>
           <e p="WordDemo" t="Include">
             <e p="ChangeColor.cs" t="Include" />
             <e p="ColorData.cs" t="Include" />
