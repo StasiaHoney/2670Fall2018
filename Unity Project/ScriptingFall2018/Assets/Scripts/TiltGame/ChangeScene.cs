@@ -8,7 +8,7 @@ public class ChangeScene : MonoBehaviour
 
 	public StringData NextLevel;
 	
-	public void onClick()
+	public void Click()
 	{
 		SceneManager.LoadScene(NextLevel.Value);
 	}
