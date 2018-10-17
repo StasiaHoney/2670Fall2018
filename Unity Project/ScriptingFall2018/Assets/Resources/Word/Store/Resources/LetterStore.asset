@@ -11,5 +11,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c05104a88196474f8ab0f327011243d, type: 3}
   m_Name: LetterStore
   m_EditorClassIdentifier: 
-  Available: {fileID: 0}
-  Purchased: {fileID: 0}
+  Available: {fileID: 11400000, guid: 3e3727aa106bff846999c5e33b5f0208, type: 2}
+  Purchased: {fileID: 11400000, guid: 817573262f9021247828c60d446473d1, type: 2}
+  Cash: {fileID: 11400000, guid: 097ee0ae92e3fcf4abf3e90114d569c7, type: 2}
+  TotalValue: 500
+  MadePurchase:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null

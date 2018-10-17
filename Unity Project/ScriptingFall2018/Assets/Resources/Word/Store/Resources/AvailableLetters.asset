@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Name: AvailableLetters
   m_EditorClassIdentifier: 
   ObjectList:
-  - {fileID: 11400000, guid: c502d43b49c4fa14d8eab0ebc80b7f0a, type: 2}
-  - {fileID: 11400000, guid: 5b593a87fa8def8438d17aefa915a6ef, type: 2}
-  - {fileID: 11400000, guid: 115fd62d49d9d5c43b72f2c38bbf4312, type: 2}
+  - {fileID: 11400000, guid: 07036ae69a4bdef4b8268f06077694e3, type: 2}
+  - {fileID: 11400000, guid: d68c6bbabe644334cb83576bff5010a6, type: 2}
+  - {fileID: 11400000, guid: 71aa586abddffb9458a5ea6d276561b3, type: 2}
