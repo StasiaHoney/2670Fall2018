@@ -9,15 +9,15 @@ EditorBuildSettings:
     path: 
     guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/TiltGame/StartMenu.unity
+    path: Assets/TiltGame/Scenes/StartMenu.unity
     guid: a39a3e924b2629b4f8045d6131385d5e
   - enabled: 1
-    path: Assets/Scenes/TiltGame/LevelMenu.unity
+    path: Assets/TiltGame/Scenes/LevelMenu.unity
     guid: 2ae91772607395f4c88ac613b624aef4
   - enabled: 1
-    path: Assets/Scenes/TiltGame/Level1.unity
+    path: Assets/TiltGame/Scenes/Level1.unity
     guid: 14804048a69bb9d49aabe0ee39cb516d
   - enabled: 1
-    path: Assets/Scenes/TiltGame/Level2.unity
+    path: Assets/TiltGame/Scenes/Level2.unity
     guid: c968c4f456ed4b04f9e6b0de7a628c47
   m_configObjects: {}

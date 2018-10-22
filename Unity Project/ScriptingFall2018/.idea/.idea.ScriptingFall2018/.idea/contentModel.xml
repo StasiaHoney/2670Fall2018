@@ -41,13 +41,6 @@
             <e p="RunCountdown.cs" t="Include" />
           </e>
           <e p="InstanceObject.cs" t="Include" />
-          <e p="TiltGame" t="Include">
-            <e p="ChangeScene.cs" t="Include" />
-            <e p="DeathVolume.cs" t="Include" />
-            <e p="RestartScene.cs" t="Include" />
-            <e p="ScrollDrag.cs" t="Include" />
-            <e p="WinVolume.cs" t="Include" />
-          </e>
           <e p="WordDemo" t="Include">
             <e p="ChangeColor.cs" t="Include" />
             <e p="ColorData.cs" t="Include" />
@@ -65,6 +58,15 @@
           </e>
         </e>
         <e p="StartBehaviour.cs" t="Include" />
+        <e p="TiltGame" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="ChangeScene.cs" t="Include" />
+            <e p="DeathVolume.cs" t="Include" />
+            <e p="RestartScene.cs" t="Include" />
+            <e p="ScrollDrag.cs" t="Include" />
+            <e p="WinVolume.cs" t="Include" />
+          </e>
+        </e>
       </e>
       <e p="Library" t="ExcludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />

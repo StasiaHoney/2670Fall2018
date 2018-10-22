@@ -41,6 +41,11 @@ public class Store : ScriptableObject
                 Available.ObjectList.RemoveAt(0);
             }
         }
+        Available.ObjectList.Clear();
     }
-    
+
+    private void OnEnable()
+    {
+        throw new System.NotImplementedException();
+    }
 }
