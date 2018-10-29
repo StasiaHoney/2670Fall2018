@@ -268,7 +268,7 @@ GameObject:
   m_PrefabParentObject: {fileID: 1156988835753904, guid: feda4fe878fea7d4285108b0cf14fb7a,
     type: 2}
   m_PrefabInternal: {fileID: 1512307106}
---- !u!114 &539662540
+--- !u!114 &539662538
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -276,9 +276,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 539662537}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6683598c43cd7c4f8e6f1162ef335d4, type: 3}
+  m_Script: {fileID: 11500000, guid: 0b989da58a7ab484eaa6f9066da4f3f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pattern: {fileID: 11400000, guid: 505040779e3168048bd2813c40cee15a, type: 2}
 --- !u!1 &632185457 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1494906621009326, guid: a6d67b6ac55d6834291e4b1ef43fbae1,
@@ -297,11 +298,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4748467732037546, guid: be5ced80c0b9db647be9da0002bd2f48, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -2.77
+      value: -3.34
       objectReference: {fileID: 0}
     - target: {fileID: 4748467732037546, guid: be5ced80c0b9db647be9da0002bd2f48, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -13.5
+      value: -12.23
       objectReference: {fileID: 0}
     - target: {fileID: 4748467732037546, guid: be5ced80c0b9db647be9da0002bd2f48, type: 2}
       propertyPath: m_LocalRotation.x
@@ -1265,11 +1266,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4748467732037546, guid: be5ced80c0b9db647be9da0002bd2f48, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -2.77
+      value: -3.34
       objectReference: {fileID: 0}
     - target: {fileID: 4748467732037546, guid: be5ced80c0b9db647be9da0002bd2f48, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -13.5
+      value: -12.23
       objectReference: {fileID: 0}
     - target: {fileID: 4748467732037546, guid: be5ced80c0b9db647be9da0002bd2f48, type: 2}
       propertyPath: m_LocalRotation.x
