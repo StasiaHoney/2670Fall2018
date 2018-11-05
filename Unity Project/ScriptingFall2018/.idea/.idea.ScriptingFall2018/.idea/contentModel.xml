@@ -52,10 +52,13 @@
             <e p="MatchID.cs" t="Include" />
             <e p="NameID.cs" t="Include" />
             <e p="ObjectID.cs" t="Include" />
-            <e p="Objects.cs" t="Include" />
-            <e p="PurchasableObject.cs" t="Include" />
+            <e p="PurchaseableObjectGenerator.cs" t="Include" />
+            <e p="PurchaseableObjects.cs" t="Include" />
             <e p="SnapOn.cs" t="Include" />
-            <e p="Store.cs" t="Include" />
+            <e p="Store" t="Include">
+              <e p="PurchasableObject.cs" t="Include" />
+              <e p="Store.cs" t="Include" />
+            </e>
             <e p="Word.cs" t="Include" />
           </e>
         </e>

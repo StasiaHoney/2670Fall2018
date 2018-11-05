@@ -7,8 +7,8 @@ using UnityEngine.Events;
 public class Store : ScriptableObject
 {
 
-    public Objects Available;
-    public Objects Purchased;
+    public PurchaseableObjects Available;
+    public PurchaseableObjects Purchased;
     public IntData Cash;
     public int TotalValue = 500;
 
@@ -18,7 +18,7 @@ public class Store : ScriptableObject
     {
         for (var i = 0; i < Available.ObjectList.Count; i++)
         {
-            PurchasableObject availableObject = Available.ObjectList[i] as PurchasableObject;
+            PurchasableObject availableObject = Available.ObjectList[i];
             if (availableObject == obj && Cash.Value >= availableObject.Value)
             {
                 Cash.Value -= availableObject.Value;
