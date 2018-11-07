@@ -9,6 +9,14 @@
           <e p="Prefab.cs" t="Include" />
         </e>
         <e p="Scripts" t="Include">
+          <e p="Actions" t="Include">
+            <e p="ActionObject.cs" t="Include" />
+            <e p="UserInput.cs" t="Include" />
+          </e>
+          <e p="AI" t="Include">
+            <e p="AIPatrol.cs" t="Include" />
+            <e p="SimpleAI.cs" t="Include" />
+          </e>
           <e p="DebugObject.cs" t="Include" />
           <e p="EventBasedBehaviors" t="Include">
             <e p="DestroyEvent.cs" t="Include" />
@@ -42,7 +50,7 @@
             <e p="RunCountdown.cs" t="Include" />
           </e>
           <e p="InstanceObject.cs" t="Include" />
-          <e p="SimpleAI.cs" t="Include" />
+          <e p="UpdateText.cs" t="Include" />
           <e p="WordDemo" t="Include">
             <e p="ChangeColor.cs" t="Include" />
             <e p="ColorData.cs" t="Include" />
