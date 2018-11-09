@@ -9,7 +9,7 @@ public class PurchasableObject : ScriptableObject
 	public bool Perpetual;
 	public bool Instantiatable;
 
-	public void CreatItem()
+	public void CreateItem()
 	{
 		if (Instantiatable && Item is GameObject)
 		{
