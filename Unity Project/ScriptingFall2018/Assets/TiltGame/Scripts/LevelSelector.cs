@@ -7,9 +7,11 @@ public class LevelSelector : MonoBehaviour
 {
 
     public Button[] levelButtons;
+    public int LevelReached;
 
     void Start()
     {
+        
         for (int i = 0; i < levelButtons.Length; i++)
         {
             levelButtons[i].interactable = false;
