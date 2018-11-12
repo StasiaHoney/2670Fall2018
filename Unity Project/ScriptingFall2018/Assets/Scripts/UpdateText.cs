@@ -12,11 +12,11 @@ public class UpdateText : MonoBehaviour
     private void Start()
     {
         Label = GetComponent<Text>();
-        Action.Raise += RaiseHandler;
+        OnUpdate();
     }
 
-    private void RaiseHandler()
+    private void OnUpdate()
     {
-        Label.text += number.Value.ToString();
+        Label.text = number.Value.ToString("C0");
     }
 }

@@ -12,7 +12,7 @@ public class PurchaseableObjectGenerator : MonoBehaviour
 		for (var i = 0; i < Purchased.ObjectList.Count; i++)
 		{
 			var obj = Purchased.ObjectList[i];
-			obj.CreatItem();
+			obj.CreateItem();
 			if (!obj.Perpetual)
 			{
 				Purchased.ObjectList.Remove(obj);
