@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-[CreateAssetMenu(fileName = "FloatInput")]
+[CreateAssetMenu(fileName = "PerpetualData/FloatInput")]
 
 public class FloatInput : FloatData
 {

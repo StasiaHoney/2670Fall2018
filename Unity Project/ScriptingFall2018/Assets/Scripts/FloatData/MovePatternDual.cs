@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-[CreateAssetMenu]
+[CreateAssetMenu(menuName = "MovePattern/Dual")]
 public class MovePatternDual : MovePattern
 {
 	private bool doubleJump;

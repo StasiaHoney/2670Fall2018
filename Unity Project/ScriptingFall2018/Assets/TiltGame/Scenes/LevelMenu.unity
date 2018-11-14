@@ -3389,7 +3389,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 824e0bf3e8ef5a64083d0ee123b976e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelButtons:
+  LevelButtons:
   - {fileID: 406302490}
   - {fileID: 750886515}
   - {fileID: 1973619893}
@@ -3408,7 +3408,7 @@ MonoBehaviour:
   - {fileID: 1694379937}
   - {fileID: 1621040661}
   - {fileID: 1939399622}
-  LevelReached: 0
+  LevelReached: {fileID: 11400000, guid: 593cc5f20d0bf874a9aaf68f843c0a5b, type: 2}
 --- !u!1 &1816637255
 GameObject:
   m_ObjectHideFlags: 0

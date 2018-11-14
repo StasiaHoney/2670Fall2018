@@ -31,6 +31,7 @@
             <e p="WeaponSwitch.cs" t="Include" />
           </e>
           <e p="FloatData" t="Include">
+            <e p="BoolData.cs" t="Include" />
             <e p="FloatBool.cs" t="Include" />
             <e p="FloatData.cs" t="Include" />
             <e p="FloatInput.cs" t="Include" />
@@ -75,6 +76,7 @@
         <e p="StartBehaviour.cs" t="Include" />
         <e p="TiltGame" t="Include">
           <e p="Scripts" t="Include">
+            <e p="AddTo.cs" t="Include" />
             <e p="ChangeScene.cs" t="Include" />
             <e p="DeathVolume.cs" t="Include" />
             <e p="Experiment.cs" t="Include" />

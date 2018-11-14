@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 23817415813361798}
   - component: {fileID: 136903421859549156}
   - component: {fileID: 114219586945224668}
+  - component: {fileID: 114512249000936356}
   m_Layer: 0
   m_Name: Basket
   m_TagString: Untagged
@@ -97,6 +98,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ID: {fileID: 11400000, guid: fbdb0b8af0a53f14abc15eccb546b588, type: 2}
+--- !u!114 &114512249000936356
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1850711002979502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4038661faa181774cacb2f1af9acad43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WinUI: {fileID: 0}
+  LevelReached: {fileID: 11400000, guid: 593cc5f20d0bf874a9aaf68f843c0a5b, type: 2}
+  LevelCompleted: {fileID: 11400000, guid: 96a2b5e37abea5247ad74161b55c71f8, type: 2}
 --- !u!136 &136903421859549156
 CapsuleCollider:
   m_ObjectHideFlags: 1

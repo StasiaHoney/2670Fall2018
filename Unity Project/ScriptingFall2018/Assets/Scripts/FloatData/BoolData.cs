@@ -1,13 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-[CreateAssetMenu(menuName = "PerpetualData/IntData")]
-public class IntData : ScriptableObject
-{
+[CreateAssetMenu(menuName = "PerpetualData/BoolData")]
+public class BoolData : ScriptableObject {
 
-	public int value;
+	public bool value;
 	
-	public virtual int Value
+	public virtual bool Value
 	{
 		get { return value;}
 		set { this.value = value; }
