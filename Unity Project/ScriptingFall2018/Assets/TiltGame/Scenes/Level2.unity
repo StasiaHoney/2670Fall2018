@@ -1327,6 +1327,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   WinUI: {fileID: 1987103370}
+  LevelReached: {fileID: 11400000, guid: 593cc5f20d0bf874a9aaf68f843c0a5b, type: 2}
+  LevelCompleted: {fileID: 11400000, guid: ba546db161f56fb4986d1b6577807f71, type: 2}
 --- !u!1 &1887135098 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1494906621009326, guid: a6d67b6ac55d6834291e4b1ef43fbae1,
