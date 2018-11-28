@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.UI;
 
 [CreateAssetMenu(fileName = "Store", menuName = "Store/StoreFront")]
 public class Store : ScriptableObject
@@ -9,6 +10,8 @@ public class Store : ScriptableObject
 
     public PurchaseableObjects Available;
     public PurchaseableObjects Purchased;
+    public GameObject Canvas;
+    public GameObject Button;
     public IntData Cash;
     public int TotalValue = 500;
 
@@ -27,6 +30,24 @@ public class Store : ScriptableObject
                 MadePurchase.Invoke();
             }
         }
+    }
+
+    public void BuildUI()
+    {    var newCanvas = Instantiate(Canvas);
+        foreach (var obj in Available.ObjectList)
+        {
+            
+            var newButton = Instantiate(Button, newCanvas.GetComponentInChildren<VerticalLayoutGroup>().transform);
+            var ButtonComponent = newButton.GetComponent<Button>();
+            ButtonComponent.onClick.AddListener(() => { MakePurchase(Available.ObjectList[0]); });
+            var label = newButton.GetComponentInChildren<Text>();
+            label.text = Available.ObjectList[0].name;
+        }
+    }
+
+    private void PurchaseButton()
+    {
+        
     }
 
     public void PurchaseAll()
