@@ -80,12 +80,14 @@
             <e p="ChangeScene.cs" t="Include" />
             <e p="DeathVolume.cs" t="Include" />
             <e p="Experiment.cs" t="Include" />
+            <e p="IntToText.cs" t="Include" />
             <e p="LevelSelector.cs" t="Include" />
             <e p="ObjectItem.cs" t="Include" />
             <e p="ObjectLists.cs" t="Include" />
             <e p="RestartScene.cs" t="Include" />
             <e p="RotateObject.cs" t="Include" />
             <e p="ScrollDrag.cs" t="Include" />
+            <e p="StoreV2.cs" t="Include" />
             <e p="WinVolume.cs" t="Include" />
           </e>
         </e>
