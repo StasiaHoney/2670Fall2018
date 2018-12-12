@@ -282,7 +282,6 @@ GameObject:
   - component: {fileID: 175237591}
   - component: {fileID: 175237594}
   - component: {fileID: 175237593}
-  - component: {fileID: 175237592}
   m_Layer: 5
   m_Name: Levels
   m_TagString: Untagged
@@ -310,38 +309,6 @@ RectTransform:
   m_AnchoredPosition: {x: -1.71, y: -54}
   m_SizeDelta: {x: 800, y: 450}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &175237592
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114879840352667440, guid: a0215ce13b803df4985b734a3231c936,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 175237590}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 824e0bf3e8ef5a64083d0ee123b976e6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  LevelButtons:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  LevelReached: {fileID: 11400000, guid: 593cc5f20d0bf874a9aaf68f843c0a5b, type: 2}
 --- !u!114 &175237593
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1669,7 +1636,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 1.3699951, y: -0.000011954253}
+  m_AnchoredPosition: {x: 1.3699951, y: -0.000020258833}
   m_SizeDelta: {x: -2.74, y: -209}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1900255391
