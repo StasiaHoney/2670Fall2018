@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/TiltGame/Scenes/LevelMenu.unity
     guid: 2ae91772607395f4c88ac613b624aef4
   - enabled: 1
+    path: Assets/TiltGame/Scenes/Store.unity
+    guid: f1454f35fa7e7a44db6f32d326663091
+  - enabled: 1
     path: Assets/TiltGame/Scenes/Level1.unity
     guid: 14804048a69bb9d49aabe0ee39cb516d
   - enabled: 1

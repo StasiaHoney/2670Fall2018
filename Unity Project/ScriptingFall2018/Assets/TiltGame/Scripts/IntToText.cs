@@ -9,7 +9,7 @@ public class IntToText : MonoBehaviour
 	public IntData Integer;
 	public Text Label;
 
-	private void Start()
+	private void Update()
 	{
 		Label.text = Integer.Value.ToString();
 	}

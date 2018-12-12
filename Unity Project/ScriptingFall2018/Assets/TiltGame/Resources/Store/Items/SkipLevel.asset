@@ -8,7 +8,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 121e2eb1fe6ae7f4e94f4102065f6c8d, type: 3}
-  m_Name: Available
+  m_Script: {fileID: 11500000, guid: 4c593ea4d58401b4e890dcf1a78fda79, type: 3}
+  m_Name: SkipLevel
   m_EditorClassIdentifier: 
-  ObjectList: []
+  Item: {fileID: 0}
+  UsageCount: 0
+  Value: 20
+  Perpetual: 1
+  Instantiatable: 0
