@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c05104a88196474f8ab0f327011243d, type: 3}
+  m_Name: Store
+  m_EditorClassIdentifier: 
+  Available: {fileID: 11400000, guid: eda4dc857095e6f48add74b6b0bc2950, type: 2}
+  Purchased: {fileID: 11400000, guid: 7fe9df5017979c14e99f1c4a1f1c2836, type: 2}
+  Cash: {fileID: 11400000, guid: 787d36cb252b3f145a2dde1adadc0cf5, type: 2}
+  TotalValue: 500
+  MadePurchase:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null

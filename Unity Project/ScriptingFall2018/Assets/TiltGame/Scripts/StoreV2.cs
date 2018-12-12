@@ -5,7 +5,7 @@ using UnityEngine;
 public class StoreV2 : ScriptableObject
 {
 
-	public Object Item;
+	public PurchasableObject Item;
 	public List<Object> Purchased;
 	public int ItemValue;
 	public IntData Cash;

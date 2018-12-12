@@ -10,8 +10,6 @@ public class Store : ScriptableObject
 
     public PurchaseableObjects Available;
     public PurchaseableObjects Purchased;
-    public GameObject Canvas;
-    public GameObject Button;
     public IntData Cash;
     public int TotalValue = 500;
 
@@ -32,24 +30,18 @@ public class Store : ScriptableObject
         }
     }
 
-    public void BuildUI()
-    {    var newCanvas = Instantiate(Canvas);
-        foreach (var obj in Available.ObjectList)
-        {
-            
-            var newButton = Instantiate(Button, newCanvas.GetComponentInChildren<VerticalLayoutGroup>().transform);
-            var ButtonComponent = newButton.GetComponent<Button>();
-            ButtonComponent.onClick.AddListener(() => { MakePurchase(Available.ObjectList[0]); });
-            var label = newButton.GetComponentInChildren<Text>();
-            label.text = Available.ObjectList[0].name;
-        }
-    }
-
-    private void PurchaseButton()
-    {
-        
-    }
-
+    //public void BuildUI()
+   // {    var newCanvas = Instantiate(Canvas);
+     //   foreach (var obj in Available.ObjectList)
+       // {
+         //   
+           // var newButton = Instantiate(Button, newCanvas.GetComponentInChildren<VerticalLayoutGroup>().transform);
+            //var ButtonComponent = newButton.GetComponent<Button>();
+            //ButtonComponent.onClick.AddListener(() => { MakePurchase(Available.ObjectList[0]); });
+            //var label = newButton.GetComponentInChildren<Text>();
+            //label.text = Available.ObjectList[0].name;
+        //}
+    //}
     public void PurchaseAll()
     {
         if (Cash.Value >= TotalValue)
@@ -63,10 +55,5 @@ public class Store : ScriptableObject
             }
         }
         Available.ObjectList.Clear();
-    }
-
-    private void OnEnable()
-    {
-        throw new System.NotImplementedException();
     }
 }
